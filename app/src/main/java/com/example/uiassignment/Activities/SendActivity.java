@@ -1,8 +1,10 @@
-package com.example.uiassignment;
+package com.example.uiassignment.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.uiassignment.R;
 
 public class SendActivity extends AppCompatActivity {
 

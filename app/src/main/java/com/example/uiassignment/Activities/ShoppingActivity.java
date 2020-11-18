@@ -1,10 +1,13 @@
-package com.example.uiassignment;
+package com.example.uiassignment.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
+import com.example.uiassignment.Adapters.RecyclerAdapter;
+import com.example.uiassignment.R;
 
 public class ShoppingActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.uiassignment;
+package com.example.uiassignment.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.Toast;
+
+import com.example.uiassignment.Adapters.MainAdapter;
+import com.example.uiassignment.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,14 +37,14 @@ public class MainActivity extends AppCompatActivity {
         location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,SendActivity.class));
+                startActivity(new Intent(MainActivity.this, SendActivity.class));
             }
         });
 
         shopping.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,ShoppingActivity.class));
+                startActivity(new Intent(MainActivity.this, ShoppingActivity.class));
             }
         });
 

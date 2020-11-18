@@ -1,4 +1,4 @@
-package com.example.uiassignment;
+package com.example.uiassignment.Adapters;
 
 import android.content.Context;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.uiassignment.R;
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder>{
 

@@ -1,4 +1,4 @@
-package com.example.uiassignment;
+package com.example.uiassignment.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+
+import com.example.uiassignment.R;
 
 public class MainAdapter extends BaseAdapter {
 

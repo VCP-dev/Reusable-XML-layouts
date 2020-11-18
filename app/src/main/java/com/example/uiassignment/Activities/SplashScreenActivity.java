@@ -1,4 +1,4 @@
-package com.example.uiassignment;
+package com.example.uiassignment.Activities;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.example.uiassignment.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -34,7 +36,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //Intent Main = new Intent(SplashScreenActivity.this, MainActivity.class);
-                Intent newMain = new Intent(SplashScreenActivity.this,MainActivity.class);
+                Intent newMain = new Intent(SplashScreenActivity.this, MainActivity.class);
 
                 // ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(SplashScreenActivity.this,new Pair<View, String>(icon,"icontransition"));
 
